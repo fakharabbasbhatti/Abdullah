@@ -44,7 +44,7 @@ const ContactUs = () => {
       icon: <CgWebsite />,
       text: "abdullahkhalid.com",
       color: "from-[#ce0928] to-[#ff4d5e]",
-      href: "https://abdullah-khalid.vercel.app/",
+      href: "https://abdullah-khalid-six.vercel.app/",
       target: "_blank",
     },
   ];
