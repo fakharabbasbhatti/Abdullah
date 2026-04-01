@@ -17,10 +17,10 @@ const features = [
 const AboutSection = () => {
   return (
     <section id="about"
-      className="relative py-24 px-5 sm:px-12 overflow-hidden bg-fixed bg-center bg-cover bg-black border-b-1 border-white">
+      className="relative py-24  overflow-hidden bg-fixed bg-center bg-cover bg-black border-b-1 border-white">
 
       {/* Content Container */}
-      <div className="max-w-[1400px] mx-auto relative z-20 grid md:grid-cols-2 gap-20 items-center">
+      <div className="max-w-[1400px] px-5 sm:px-12 mx-auto relative z-20 grid md:grid-cols-2 gap-20 items-center">
         {/* Text Content */}
         <div className="p-5 sm:p-8 bg-white/70 rounded-md shadow-lg backdrop-blur-md">
           <h2 className="text-4xl font-bold text-red-600 mb-4">About Us</h2>
@@ -46,11 +46,11 @@ const AboutSection = () => {
         </div>
 
         {/* Image Section */}
-        <div className="relative p-3 flex justify-center items-center">
+        <div className="relative p-3 flex justify-center items-center sm:ml-30">
           <img
             src={about}
             alt="About Us"
-            className="rounded-xl shadow-md object-cover w-96 h-96 lg:w-[450px] lg:h-[450px] hover:opacity-90 transition-opacity duration-300 border border-gray-800 hover:border-[#ce0928]"
+            className="rounded-xl shadow-md object-cover w-96 h-96 lg:w-[500px] lg:h-[450px] hover:opacity-90 transition-opacity duration-300 border border-gray-800 hover:border-[#ce0928] "
           />
         </div>
       </div>

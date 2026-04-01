@@ -65,13 +65,8 @@ const Services = () => {
 
   return (
     <Fragment>
-      <section id="services" className="relative py-5 sm:py-16 px-5 sm:px-12 border-b-1 border-white bg-black overflow-hidden">
-        
-        {/* Decorative blurred circles */}
-        <div className="absolute top-0 left-0 w-40 h-40 bg-[#ce0928]/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-40 h-40 bg-[#ce0928]/10 rounded-full blur-3xl"></div>
-
-        <div className="max-w-[1400px] mx-auto mt-5">
+      <section id="services" className="relative py-5 sm:py-16  border-b-1 border-white bg-black overflow-hidden">
+      <div className="max-w-[1400px] px-5 sm:px-12 mx-auto mt-5">
           
           <div className="flex justify-center">
             <h1 

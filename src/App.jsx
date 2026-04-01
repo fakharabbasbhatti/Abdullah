@@ -84,14 +84,14 @@ function App() {
         <ContactUs />
         <Footer />
 
-        <a
-          href="https://wa.me/9203267921602"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform "
-        >
-          <FaWhatsapp size={28} />
-        </a>
+       <a
+  href="https://wa.me/9203267921602"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform z-50"
+>
+  <FaWhatsapp size={28} />
+</a>
       </div>
     </Fragment>
   )

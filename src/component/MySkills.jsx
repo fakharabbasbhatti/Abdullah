@@ -28,12 +28,9 @@ const MySkills = () => {
   ];
 
   return (
-    <section id="skills" className="relative py-5 sm:py-16 px-5 sm:px-12 bg-black overflow-hidden border-b-1 border-white">
+    <section id="skills" className="relative py-5 sm:py-16  bg-black overflow-hidden border-b-1 border-white">
       
-      <div className="absolute top-0 left-0 w-40 h-40 bg-[#ce0928]/10 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-40 h-40 bg-[#ce0928]/10 rounded-full blur-3xl"></div>
-      
-      <div className="max-w-[1400px] mx-auto mt-5">
+      <div className="max-w-[1400px] mx-auto px-5 sm:px-12 mt-5">
         
         <h2 
           className="text-4xl p-2 md:text-5xl font-bold text-center text-[#ce0928] mb-6 sm:mb-15"

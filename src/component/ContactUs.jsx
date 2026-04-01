@@ -50,9 +50,9 @@ const ContactUs = () => {
   ];
 
   return (
-    <section id="contact" className="py-10 sm:py-16 px-5 sm:px-12 bg-black border-b border-white">
+    <section id="contact" className="py-10 sm:py-16 bg-black border-b border-white">
 
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl px-5 sm:px-12 mx-auto">
 
         {/* Heading */}
         <h1

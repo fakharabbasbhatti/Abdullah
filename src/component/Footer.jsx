@@ -16,10 +16,10 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-black text-white px-5 sm:px-12  py-10 border-b-1 border-white">
+    <footer className="bg-black text-white py-10 border-b-1 border-white">
 
       {/* Main Grid */}
-      <div className="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 ">
+      <div className="max-w-[1400px] mx-auto  px-5 sm:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 ">
 
         {/* About Me */}
         <div data-aos="fade-up">

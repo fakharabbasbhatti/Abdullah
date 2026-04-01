@@ -60,9 +60,9 @@ const Projects = () => {
 
   return (
     <Fragment>
-      <section id="projects" className="relative py-5 sm:py-16 px-5 sm:px-12 border-b-1 border-white bg-black overflow-hidden">
+      <section id="projects" className="relative py-5 sm:py-16 border-b-1 border-white bg-black overflow-hidden">
 
-        <div className="max-w-[1400px] mx-auto mt-5 z-10">
+        <div className="max-w-[1400px] mx-auto px-5 sm:px-12 mt-5 z-10">
           
           <div className="flex flex-col items-center">
              <h1 
